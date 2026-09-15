@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caab6b137f0dee4459fb6ed455ea9fba, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  mapWidth: 16
+  mapDepth: 40
+  startOil: 90
+  oilDrainPerSecond: 1
+  lampRadiusMax: 7
+  lampRadiusMin: 1.5
+  fallStunThreshold: 5
+  fallStunDuration: 1
+  fallStunOilLoss: 5
+  webCost: 8
+  webFailCost: 4
+  webMaxCount: 5
+  webMaxLength: 6
+  inventorySlots: 6
+  targetDepth: 20
